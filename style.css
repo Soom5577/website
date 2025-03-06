@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(60deg, rgb(194, 135, 138),rgb(179, 94, 94));
+}
+.img-1 {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#t1 {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    position: absolute;
+    left: 140px;
+    top: 10px;
+}
+#t2 {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    width: 100px;
+    font-size: 90px;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+.img-2 {
+    width: 600px;
+    filter: drop-shadow(2px 2px 2px black);
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+#t3 {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    font-size: 30px;
+    position: absolute;
+    top: 390px;
+    left: 200px;
+    z-index: -1;
+}
+#t4 {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    width: 380px;
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    z-index: -1;
+}
+.btn-1 {
+    padding: 15px 30px;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    font-size: 15px;
+    background-color: rgb(194, 135, 138);
+    border-radius: 10px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 590px;
+    left: 200px;
+}
+.btn-1:hover {
+    background-color: rgb(246, 181, 185);
+    color: black;
+    filter: drop-shadow(2px 2px 2px black);
+    text-shadow: 0px 0px 10px black;
+}
+.btn-1:active {
+    transform: scale(1.1);
+}
+.img-3 {
+    width: 30px;
+    position: absolute;
+    left: 1300px;
+    top: 30px;
+}
+.img-3:hover {
+    transform: scale(1.1);
+}
+#t5 {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    font-size: 60px;
+    position: absolute;
+    left: 1270px;
+    top: 300px;
+}
+#part2 {
+    width: 1376px;
+    height: 900px;
+    background: linear-gradient(40deg, rgb(255, 221, 30),rgb(250, 220, 45));
+    position: absolute;
+    left: -10px;
+    top: 770px;
+}
+#down-1 {
+    width: 90px;
+    position: absolute;
+    left: 1262px;
+    top: 430px;
+}
+#down-1:hover {
+    transform: scale(1.1);
+}
+/* part 2 */
